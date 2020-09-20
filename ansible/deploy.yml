@@ -9,9 +9,9 @@
                 state: latest
         - name: clone yml files
           git:
-                repo: 'https://github.com/AymanZahran/Full_Automation/tree/master/kubernetes'
-                dest: /home/sysadmin/Kubernetes
+                repo: 'https://github.com/AymanZahran/Full_Automation'
+                dest: /home/sysadmin/Full_Automation
                 clone: yes
                 update: no
         - name: deploy kubernetes
-          command: kubectl apply -f /home/sysadmin/Kubernetes/deployment.yml
+          command: kubectl apply -f /home/sysadmin/Full_Automation/kubernetes/deployment.yml
