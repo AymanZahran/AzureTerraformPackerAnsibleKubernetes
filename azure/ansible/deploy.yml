@@ -10,7 +10,7 @@
         - name: clone yml files
           git:
                 repo: 'https://github.com/AymanZahran/Full_Automation'
-                dest: /home/sysadmin/Full_Automation
+                dest: /home/sysadmin/Full_Automation/azure
                 clone: yes
                 update: no
         - name: deploy kubernetes
